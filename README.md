@@ -1,6 +1,6 @@
-If useful for your research, please cite: <br>
+If useful to your research, we would appreciate a citation:<br>
 Yunhan Niu, Wenwu Wang, Yutai Su, Fengrui Jia, Xu Long. "Plastic damage prediction of concrete under compression based on deep learning." XXXXXX (2023): XXXXXX.<br>
-Be free to use this code. If any questions, pls email us (suyutai@nwpu.edu.cn or xulong@nwpu.edu.cn). <br>
+Feel free to utilize this code. If any questions, please email us (suyutai@nwpu.edu.cn or xulong@nwpu.edu.cn). <br>
 
 # Material property of concrete damaged plasticity in Abaqus python script
 ## Keywords:
