@@ -1,5 +1,7 @@
 If useful to your research, we would appreciate a citation:<br>
-***Yunhan Niu, Wenwu Wang, Yutai Su, Fengrui Jia, Xu Long. "Plastic damage prediction of concrete under compression based on deep learning." XXXXXX (2023): XXXXXX.***<br>
+***Yunhan Niu, Wenwu Wang, Yutai Su, Fengrui Jia, Xu Long. 
+"Plastic damage prediction of concrete under compression based on deep learning." 
+XXXXXX (2023): XXXXXX.***<br>
 Feel free to utilize this code. If any questions, please email us (suyutai@nwpu.edu.cn or xulong@nwpu.edu.cn). <br>
 
 # Material property of concrete damaged plasticity in Abaqus python script
@@ -9,8 +11,8 @@ ABAQUS; Python script; CDP model; concrete damaged plasticity
 Concrete damage plasticity (CDP) model is widely used to describe the elastoplastic properties of concrete. 
 The tuples of CDP parameters in material definitions could be calculated by this code,
 which could be used in Abaqus python script to automativally generate the material property of CDP. 
-Demo is as follow: <br>
-#Material Definitions <br>
+Demo is as follow: <br> <br>
+\# Material Definitions <br>
 m = mdb.models['Model-1'] <br>
 m.Material(name='Concre') <br>
 m.materials['Concre'].Density(table=((dens, ), )) <br>
