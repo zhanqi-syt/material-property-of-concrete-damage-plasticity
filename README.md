@@ -12,7 +12,7 @@ Concrete damage plasticity (CDP) model is widely used to describe the elastoplas
 The tuples of CDP parameters in material definitions could be calculated by this code,
 which could be used in Abaqus python script to automativally generate the material property of CDP. 
 Demo is as follow: <br> <br>
-\# Material Definitions <br>
+`# Material Definitions in Abaqus python script` <br>
 m = mdb.models['Model-1'] <br>
 m.Material(name='Concre') <br>
 m.materials['Concre'].Density(table=((dens, ), )) <br>
