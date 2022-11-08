@@ -42,7 +42,6 @@ while dam_c < dam_c_max:
     ec_in = ec - sc/e0
     ec_pl = ec - sc/(e0*(1-dam_c))
 
-
 # Tension curve
 rout = ftr/(e0*etr)
 ten_all = []
@@ -61,7 +60,6 @@ while dam_t < dam_t_max:
     dam_t = 1.0-np.sqrt(st/(et*e0))
     et_in = et-st/e0
     et_pl = et-st/(e0*(1-dam_t))
-
 
 # Store in tuples
 cpr_all = np.array(cpr_all)
