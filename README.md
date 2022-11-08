@@ -10,7 +10,8 @@ ABAQUS; Python script; CDP model; concrete damaged plasticity
 ## Introduction
 Concrete damage plasticity (CDP) model is widely used to describe the elastoplastic properties of concrete. 
 The tuples of CDP parameters in material definitions could be calculated by this code,
-which could be used in Abaqus python script to automativally generate the material property of CDP. 
+which could be used in Abaqus python script to automativally generate the material property of CDP. <br>
+Compression strength, density, and poisson's ratio are 3 necessary params, other params could be calculated according to empirical relationships and standards. <br>
 Demo is as follow: <br> <br>
 `# Material Definitions in Abaqus python script` <br>
 m = mdb.models['Model-1'] <br>
