@@ -111,7 +111,7 @@ Damage_t = tuple([tuple(e) for e in Damage_t.T])
 # Material Definitions
 m = mdb.models[ModelName]
 m.Material(name=MaterName)
-mat = m.materials['Concre']
+mat = m.materials[MaterName]
 mat.Density(table=((dens, ), ))
 mat.Elastic(table=((e0, miu), ))
 mat.ConcreteDamagedPlasticity(table=((30.0,0.1, 1.16, 0.667, 0.0001), ))
