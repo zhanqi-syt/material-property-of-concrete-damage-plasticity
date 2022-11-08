@@ -8,15 +8,15 @@ miu = 0.2                              # Poisson's ratio (from experimental data
 dens = 2.2e-09                         # Density (from experimental data)
 fcr = 50.0                             # Compression strength (from experimental data)
 e0 = 12285.0*fcr**0.264                # Elastic modulus (empirical relationship)(adjustable)
-ecr = 0.000001*(700+172.*fcr**0.5)     # Peak strain under compression (empirical relationship)(adjustable)
-ftr = 0.1*fcr                          # Representative tension strength (empirical relationship)(adjustable)
-etr = ftr**0.54*0.000065               # Stain for representative tension strength (empirical relationship)(adjustable)
 sy = fcr*0.4                           # Yield stress (0.4~0.6*fcr)(empirical relationship)(adjustable)
+ecr = 0.000001*(700+172.*fcr**0.5)     # Strain for compression strength (empirical relationship)(adjustable)
+ftr = 0.1*fcr                          # Tension strength (empirical relationship)(adjustable)
+etr = ftr**0.54*0.000065               # Stain for tension strength (empirical relationship)(adjustable)
 alpc = 0.157*fcr**0.785-0.905          # Descending params of compression curve (empirical relationship)(adjustable)
 alpt = 0.312*ftr**2                    # Descending params of tension curve (empirical relationship)(adjustable)
-dec = 0.0001                           # Strain increment in compression curve
+dec = 0.0001                           # Strain increments in compression curve
 dam_c_max = 0.9                        # Maximun compression damage
-det = 0.0001                           # Strain increment in tension curve
+det = 0.0001                           # Strain increments in tension curve
 dam_t_max = 0.9                        # Maximun tension damage
 
 # Compression curve
