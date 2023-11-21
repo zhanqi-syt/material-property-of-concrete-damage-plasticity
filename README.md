@@ -1,7 +1,7 @@
 If useful to your research, we would appreciate a citation:<br>
 ***Yunhan Niu, Wenwu Wang, Yutai Su, Fengrui Jia, Xu Long. 
 "Plastic damage prediction of concrete under compression based on deep learning." 
-Acta Mechanica (2023): Published: 20 October 2023***<br>
+Acta Mechanica (Published: 20 October 2023)***<br>
 Feel free to utilize this code. If any questions, please email us (suyutai@nwpu.edu.cn or xulong@nwpu.edu.cn). <br>
 
 # Material property of concrete damage plasticity in Abaqus python script
